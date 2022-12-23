@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- -----------------bootstrap---------------- -->
+    <link rel="stylesheet" href="./css/bootstrap+fontawesome/css/bootstrap.min.css">
+    <!-- --------------fontAowsm------------ -->
+    <link rel="stylesheet" href="./css/bootstrap+fontawesome/css/all.min.css">
+    <!-- ----------stayle sheet-------------- -->
+    <link rel="stylesheet" href="./css/stayle.css">
+    <!-- -----------font--------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,400&family=Roboto:ital,wght@0,100;0,500;1,400&display=swap" rel="stylesheet">
+
+    <title>library</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">Alhajar library </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">info</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./allbook.html" target="_blank">All books </a>
+                    </li>
+                  </ul>
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./singelbook.html" target="_blank">single books </a>
+                    </li>
+                  </ul>
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./contact us.html" target="_blank">contact us </a>
+                    </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div id="header-h1" class="container">
+          <div class="  pt-5 text-center mt-5">
+            <h1>Alhajar library <i class="fa-solid fa-book"></i></h1>
+          </div>
+          <div class="container text-center mt-5 fs-4">
+            <p>Welcome to the largest library in the world</p>
+          </div>
+        </div>
+    </header>
+
+    <!-- -------------------------------------------------------------------------------------------- -->
+        <main class="row m-4">
+            <section class="col-3 bookrange">
+                <div class="  pt-5 text-center mt-5">
+                    <h1>Bestsellers books <i class="fa-solid fa-book"></i></h1>
+                  </div>
+                <div class="container-fluid w-75 mt-5 mb-5">
+                  <div class="container-fluid mt-5 mb-5 border border-dark">
+                    <label for="customRange1" class="form-label fs-2">price range</label>
+                    <input type="range" class="form-range" id="customRange1">
+                  </div>
+                  <div class="input-group">
+                    <input type="search" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                    <span class="input-group-text">$</span>
+                    <span class="input-group-text">0.00</span>
+                  </div>
+              </div>
+              <div class="container-fluid d-flex justify-content-between" id="book-buy">
+                <h2 class="fs-1 mt-3">Purchase List</h2>
+                <i class="fa-solid fa-cart-arrow-down fs-1 mt-4"></i>
+              </div>
+            </section>
+              <section class="col-9">
+            <div class="card";">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./img/harry potter.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">harry potter</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <h3>14$</h3>
+                          <a href="#" class="btn btn-primary">buy the book</a>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./img/harry potter.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">harry potter</h5>
+                          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                          <h3>free$</h3>
+                          <a href="#" class="btn btn-primary">buy the book</a>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./img/harry potter.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">harry potter</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                          <h3>49$</h3>
+                          <a href="#" class="btn btn-primary">buy the book</a>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            <div class="card mt-5";">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./img/harry potter.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">harry potter</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <h3>59$</h3>
+                          <a href="#" class="btn btn-primary">buy the book</a>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./img/harry potter.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">harry potter</h5>
+                          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                          <h3>79$</h3>
+                          <a href="#" class="btn btn-primary">buy the book</a>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./img/harry potter.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">jad</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                          <h3>free</h3>
+                          <a href="#" class="btn btn-primary">buy the book</a>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            <div class="card mt-5";">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./img/harry potter.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">harry potter</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <h3>20$</h3>
+                          <a href="#" class="btn btn-primary">buy the book</a>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./img/harry potter.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">harry potter</h5>
+                          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                          <h3>15$</h3>
+                          <a href="#" class="btn btn-primary">buy the book</a>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./img/harry potter.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">harry potter</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                          <h3>50$</h3>
+                          <a href="#" class="btn btn-primary">buy the book</a>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+          </main>
+
+          <footer>
+            <ul class="nav justify-content-center mt-5 mb-5">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa-solid fa-envelope"></i></a>
+                </li>
+              </ul>
+          </footer>
+    <script src="./css/bootstrap+fontawesome/js/bootstrap.bundle.min.js"></script>
+    <script src="./css/bootstrap+fontawesome/js/all.min.js"></script>
+</body>
+</html>

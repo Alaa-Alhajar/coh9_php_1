@@ -1,0 +1,44 @@
+body{
+    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* ------------------index--------------- */
+footer{
+    background-color: rgb(218, 209, 198);
+    font-size: 250%;
+}
+nav{
+    height: 6rem;
+    font-size: 200%;
+    opacity: .9;
+}
+.navbar-brand{
+    font-size: 150%;
+}
+header{
+    background-image: url("../img/563717_liz-allen-library-aisle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+}
+#header-h1{
+    background-color: rgba(249, 251, 252, 0.781);
+    height: 20rem;
+}
+.bookrange{
+    background-color: rgba(124, 122, 122, 0.486);
+}
+#book-buy{
+    background-color: rgba(161, 159, 159, 0.719);
+    height: 100rem;
+    width: 90%;
+}
+/* -------------countacUs--------------------- */
+#header-cuntus{
+    background-color: rgb(65, 97, 97);
+
+}
+#header-condiv{
+    background-color: rgb(172, 133, 133);
+    height: 40rem;
+}
