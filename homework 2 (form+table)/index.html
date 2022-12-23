@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student page</title>
+</head>
+<body>
+    <header>
+        <img src="/homework 2 (form+table)/img2/stu_login.gif" alt="img">
+        <h1>Student information</h1>
+    </header>
+    <main>
+        <section>
+            <form action="" method="post">
+                <div>
+                <label for="name">Student name</label>
+                <input id="name" type="text" required placeholder="inter your name" autofocus name="uname">
+            <div>
+                <label for="date" >date of birth</label>
+                <input id="date" type="date" required placeholder="inter your date" />
+               </div>
+               <div>
+                <label for="weight" >weight</label>
+                <input id="weight" type="number" name="weight" min="0" max="100" step="1" value="0" />
+               </div>
+
+               <div>
+                <input id="male" type="radio" name="na" value="male" checked />   
+               <label for="male" >Male</label>
+              </div>
+              <div>
+                <input id="female" type="radio" name="na" value="female" />   
+               <label for="female" >Female</label>
+              </div>
+              <div>
+                <label >email</label>
+                <input type="email" placeholder="write a valid email" />
+               </div>
+               <div>
+                <label for=”phone> Please enter your phone number here: </label>
+                <input type=”tel” id=”phone” name=”phone”>
+               </div>
+               <div>
+                <label for="ad">where are you live </label>
+                <select name="city" id="ad" >
+                    
+                    <optgroup label="add">
+                    <option value="amman"> amman </option>
+                    <option value="irbid"> irbid </option>
+                    <option value="kark"> kark </option>
+                    </optgroup>
+                     </select>
+               </div>
+               <div>
+                <label >favorite color</label>
+                <input type="color" name="color" />
+               </div>
+               <div>
+                <label >inter your cv</label>
+                <input type="file" />
+               </div>
+               <div>
+                <label for="">submit</label>
+                <input type="submit">
+               </div>
+            </form>
+        </section>
+      <!--------------------------------------------------------------------------------------------------------- -->
+      <hr>
+        <section>
+                <!--table-->
+        <table border="1">
+            <caption>student information</caption>
+            <thead>
+                <tr>
+                    <th>first</th>
+                    <th>last</th>
+                    <th>age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>osama</td>
+                <td>ibraheem</td>
+                <td>65</td>
+                </tr>
+                <tr>
+                <td>ali</td>
+                <td>sead</td>
+                <td>25</td>
+                </tr>
+                <tr>
+                <td>alaa</td>
+                <td>khald</td>
+                <td>55</td>
+                </tr>
+                <tr>
+                <td>ahmad</td>
+                <td>ali</td>
+                <td>35</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">total</td>
+                    <td>180</td>
+                </tr>
+            </tfoot>
+        </table>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+}
+header{
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left:3rem;
+    padding-top: 1.4rem;
+    background-color: rgba(255, 255, 255, 0.651);
+    -webkit-box-shadow: 0px -1px 17px 6px rgba(0,0,0,0.89); 
+    box-shadow: 0px -1px 17px 6px rgb(0, 0, 0);
+}
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav_list li {
+    margin-right: 5rem;
+}
+.nav_list li a{
+    text-decoration: none;
+    color: black;
+    font-size: 200%;
+    transition-duration: 0.5s;
+}
+.nav_list li a:hover{
+    opacity: 0.6;
+    margin-left: 2rem;
+    color: rgb(70, 58, 44);
+}
+#header-section{
+    height:60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main-cont{
+    width: 85vh;
+    height: 45vh;
+    background-color: rgba(252, 252, 252, 0.726);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+#main-cont:hover{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+#main-cont p{
+    margin: 0;
+
+}
+#main-cont h1{
+    margin: 10px;
+    font-size: 200%;
+}
+#htu-search{
+    width: 100%;
+    font-size: 80%;
+    padding: 15px;
+    border-radius: 25px;
+}
+/* ------------------------------ */
+#htu-courses{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.137);
+}
+#htu-courses a {
+    width: 25%;
+    height: 15rem;
+    font-size: 300%;
+    margin-top: 10rem;
+    margin-left: 6rem;
+    margin-bottom: 10rem;
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.5;
+    border-radius: 30px;
+}
+#htu-courses a:hover{
+    opacity: 1;
+}
+#php{
+    background-image: url("../img/php-logo.png");
+    background-size: cover;
+}
+#html{
+    background-image: url("../img/html.jpg");
+    background-size: cover;
+}
+#css{
+    background-image: url("../img/css.jfif");
+}
+#java{
+    background-image: url("../img/java_logo_640.jpg");
+    background-size: cover;
+}
+#js{
+    background-image: url("../img/java-script.jpg");
+    background-size: cover;
+}
+#paython{
+    background-image: url("../img/paython.jfif");
+    background-size: cover;
+}
+#oop{
+    background-image: url("../img/oop.jpg");
+    background-size: cover;
+}
+#sql{
+    background-image: url("../img/sql.jpg");
+    background-size: cover;
+}
+#mysql{
+    background-image: url("../img/mysql.png");
+    background-size: cover;
+}
